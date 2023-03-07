@@ -4,5 +4,4 @@ apt update -y
 apt install -y docker.io docker-compose
 
 # Clone django cms quickstart
-wget -O docker-compose.yml
-https://dotcms.com/run/demo && docker-compose up -d
+curl -o docker-compose.yml https://dotcms.com/run/clean && docker-compose up -d
