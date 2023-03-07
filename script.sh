@@ -1,4 +1,5 @@
 # This script install Docker / Docker Compose and runs Dotnet
+#!/bin/sh
 apt update -y
 apt install -y docker.io docker-compose
 
